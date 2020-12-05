@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nicolas",
+  "license": "ISC",
+  "dependencies": {
+    "node-dht-sensor": "^0.3.0",
+    "pigpio": "^2.0.0",
+    "ps-tree": "^1.2.0",
+    "socket.io": "^2.2.0",
+    "systeminformation": "^4.14.3",
+    "tree-kill": "^1.2.1"
+  }
+}
